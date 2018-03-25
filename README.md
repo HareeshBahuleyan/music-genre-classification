@@ -10,8 +10,8 @@ Recognizing music genre is a challenging task in the area of music information r
 This project was carried out as a part of the course CS 698 - Computational Audio offered by [Prof. Richard Mann](https://cs.uwaterloo.ca/~mannr/) at the University of Waterloo.
 
 ## Datasets
-The *Audio Set* data [released by Google](https://research.google.com/audioset/download.html) is used in this study. Specifically, only the wav files that correspond to the following class labels are extracted from YouTube based on the video link, start and end times.
-<img src="plots/data.png" width="50"/>
+The *Audio Set* data [released by Google](https://research.google.com/audioset/download.html) is used in this study. Specifically, only the wav files that correspond to the following class labels are extracted from YouTube based on the video link, start and end times. <br>
+<img src="plots/data.png" width="400"/>
 
 ## Requirements
 - tensorflow-gpu==1.3.0
@@ -32,12 +32,12 @@ The *Audio Set* data [released by Google](https://research.google.com/audioset/d
 
 ## Results
 The models are evaluated on the basis on AUC, accuracy and Fscore.
-<img src="plots/results.png" style="width: 200px;"/>
+<img src="plots/results.png" width="400"/>
 
 The most important 20 features based on the XGB classifier are shown below. The metric on the x-axis refers to the number of times a given features appears as a decision node in all of the decision trees used to build the gradient boost predictor.
-<img src="plots/feature-imp.png" style="width: 100px;"/>
+<img src="plots/feature-imp.png" width="400"/>
 
 The confusion matrix of the ensemble XGB and CNN classifier:
-<img src="plots/ensemble-cm.png" style="width: 100px;"/>
+<img src="plots/ensemble-cm.png" width="400"/>
 
 
