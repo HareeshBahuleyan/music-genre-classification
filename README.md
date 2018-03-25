@@ -32,7 +32,7 @@ The *Audio Set* data [released by Google](https://research.google.com/audioset/d
 
 ## Results
 The models are evaluated on the basis on AUC, accuracy and Fscore.
-![](plots/results.png =100x)
+<img src="plots/feature-imp.png" style="width: 200px;"/>
 
 The most important 20 features based on the XGB classifier are shown below. The metric on the x-axis refers to the number of times a given features appears as a decision node in all of the decision trees used to build the gradient boost predictor.
 ![](plots/feature-imp.png)
