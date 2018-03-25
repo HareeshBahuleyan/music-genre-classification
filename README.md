@@ -11,7 +11,7 @@ This project was carried out as a part of the course CS 698 - Computational Audi
 
 ## Datasets
 The *Audio Set* data [released by Google](https://research.google.com/audioset/download.html) is used in this study. Specifically, only the wav files that correspond to the following class labels are extracted from YouTube based on the video link, start and end times.
-<img src="plots/data.png" style="width: 100px;"/>
+<img src="plots/data.png" width="50"/>
 
 ## Requirements
 - tensorflow-gpu==1.3.0
