@@ -11,7 +11,7 @@ This project was carried out as a part of the course CS 698 - Computational Audi
 
 ## Datasets
 The *Audio Set* data [released by Google](https://research.google.com/audioset/download.html) is used in this study. Specifically, only the wav files that correspond to the following class labels are extracted from YouTube based on the video link, start and end times. <br>
-<img src="plots/data.png" width="400"/>
+<img src="plots/data.png" width="250"/>
 
 ## Requirements
 - tensorflow-gpu==1.3.0
@@ -31,13 +31,13 @@ The *Audio Set* data [released by Google](https://research.google.com/audioset/d
 3. The next step is to run the models. Please refer to the corresponding Jupyter notebooks. The deep learning based models are present in notebooks 3.1, 3.2 and 3.3. Notebooks 4 and 5 contains steps for feature extraction (run `feature_extraction.py`) and building the classifiers using `sklearn`.
 
 ## Results
-The models are evaluated on the basis on AUC, accuracy and Fscore.
-<img src="plots/results.png" width="400"/>
+The models are evaluated on the basis on AUC, accuracy and Fscore. <>br
+<img src="plots/results.png" width="600"/>
 
-The most important 20 features based on the XGB classifier are shown below. The metric on the x-axis refers to the number of times a given features appears as a decision node in all of the decision trees used to build the gradient boost predictor.
+The most important 20 features based on the XGB classifier are shown below. The metric on the x-axis refers to the number of times a given features appears as a decision node in all of the decision trees used to build the gradient boost predictor. <>br
 <img src="plots/feature-imp.png" width="400"/>
 
-The confusion matrix of the ensemble XGB and CNN classifier:
+The confusion matrix of the ensemble XGB and CNN classifier: <br>
 <img src="plots/ensemble-cm.png" width="400"/>
 
 
