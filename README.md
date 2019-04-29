@@ -7,7 +7,7 @@ Recognizing music genre is a challenging task in the area of music information r
 1. Spectrogram based end-to-end image classification using a CNN (VGG-16)
 2. Feature Engineering Approach using Logistic Regression, SVMs, Random Forest and eXtreme Gradient Boosting.
 
-For a detailed description about the project, please refer to [Music Genre Classification using Machine Learning Techniques](https://arxiv.org/abs/1804.01149) published on [arXiv](https://arxiv.org/).
+For a detailed description about the project, please refer to [Music Genre Classification using Machine Learning Techniques](https://arxiv.org/abs/1804.01149), published on [arXiv](https://arxiv.org/).
 
 ## Datasets
 The *Audio Set* data [released by Google](https://research.google.com/audioset/download.html) is used in this study. Specifically, only the wav files that correspond to the following class labels are extracted from YouTube based on the video link, start and end times. 
