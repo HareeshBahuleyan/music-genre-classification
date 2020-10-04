@@ -27,12 +27,13 @@ The *Audio Set* data [released by Google](https://research.google.com/audioset/d
 - tqdm==4.19.1
 - scipy==0.19.0
 - Pillow==4.1.1
-### Modules Installing
-If you got any problem in installing the modules you just need to go to python unofficial binnaries and according to your python version you can install them.
+
+__Note__: If you encounter any problem in installing the modules you just need to go to python unofficial binnaries and according to your python version you can install them.
+
 ## Instructions
 1. First, the audio wav files need to be downloaded using the tool [youtube-dl](https://rg3.github.io/youtube-dl/). For this run `audio_retrieval.py`. Note that the each file is about 880 KB, totally upto 34 GB!
 2. Next, generate MEL spectrograms by running `generate_spectrograms.py`. If needed, you may modify the same file to change the Short Time Fourier Transform (STFT) parameters.
-3. The next step is to run the models. Please refer to the corresponding Jupyter notebooks. The deep learning based models are present in notebooks 3.1, 3.2 and 3.3. Notebooks 4 and 5 contains steps for feature extraction (run `feature_extraction.py`) and building the classifiers using `sklearn`
+3. The next step is to run the models. Please refer to the corresponding Jupyter notebooks. The deep learning based models are present in notebooks 3.1, 3.2 and 3.3. Notebooks 4 and 5 contains steps for feature extraction (run `feature_extraction.py`) and building the classifiers using `sklearn`. 
 
 ## Results
 The models are evaluated on the basis on AUC, accuracy and Fscore. 
